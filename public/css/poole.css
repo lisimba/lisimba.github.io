@@ -48,7 +48,8 @@ body {
 }
 
 html {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
+  font-family: "proxima-nova",sans-serif;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -202,7 +203,7 @@ blockquote p:last-child {
 
 img {
   display: block;
-  margin: 0 0 1rem;
+  /* margin: 0 0 1rem; */
   border-radius: 5px;
 }
 
@@ -275,7 +276,7 @@ tbody tr:nth-child(odd) th {
 .masthead {
   padding-top:    1rem;
   padding-bottom: 1rem;
-  margin-bottom: 3rem;
+  /* margin-bottom: 3rem; */
 }
 .masthead-title {
   margin-top: 0;
@@ -302,7 +303,9 @@ tbody tr:nth-child(odd) th {
 
 .page,
 .post {
-  margin-bottom: 4em;
+  margin-bottom: 3em;
+  padding-bottom: 2em;
+  border-bottom: 1px solid #eee;
 }
 
 /* Blog post or page title */
@@ -314,6 +317,7 @@ tbody tr:nth-child(odd) th {
 .page-title,
 .post-title {
   margin-top: 0;
+  text-align: center;
 }
 
 /* Meta data line below post title */
@@ -322,6 +326,7 @@ tbody tr:nth-child(odd) th {
   margin-top: -.5rem;
   margin-bottom: 1rem;
   color: #9a9a9a;
+  text-align: center;
 }
 
 /* Related posts */

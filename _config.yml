@@ -1,24 +1,24 @@
 # Dependencies
 markdown:         redcarpet
-pygments:         true
+highlighter:         true
 
 # Permalinks
 permalink:        pretty
 
 # Setup
-title:            Poole
-tagline:          'The Jekyll Butler'
+title:            Lisimba's Blog
+tagline:          ''
 description:      'Base theme for Jekyll themes by @mdo.'
-url:              http://getpoole.com
+url:              http://blog.lisimba.co.uk
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Lisimba Gilkes'
+  url:            https://lisimba.co.uk
 
-paginate:         1
+paginate:         5
 
 # Custom vars
 version:          1.0.0
 
 github:
-  repo:           https://github.com/poole/poole
+  repo:           https://github.com/lisimba
